@@ -35,7 +35,7 @@ interactive demo (text boxes, buttons, tables, etc.) without writing any HTML/JS
 can be hosted for free on [Hugging Face Spaces](https://huggingface.co/spaces). The app
 for this project, [`gradio_app/app.py`](gradio_app/app.py), is one such Gradio app.
 
-Paste any clinical free-text into the [`Gradio app`](https://huggingface.co/spaces/acebirim/SNOMED_NER). The selected model, from a dropdown, identifies disease entity spans
+Paste any clinical free-text into the [`gradio app`](https://huggingface.co/spaces/acebirim/SNOMED_NER). The selected model, from a dropdown, identifies disease entity spans
 using BIO tagging and highlights them inline. Results are also shown as a summary table with their confidence values. Sample clinical texts are provided in the app.
 
 (Pictures of the Gradio App)
