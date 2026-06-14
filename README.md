@@ -2,7 +2,7 @@
 # SNOMED NER — Clinical Disease Entity Extractor
 
 A Named Entity Recognition model for identifying disease entities in clinical free-text,
-deployed as part of an NHS/OneLondon Secure Data Environment capstone project.
+deployed as a capstone project for the Advanced ML course from https://ml.electricsheep.africa/grade2/
 
 ## Models
 
