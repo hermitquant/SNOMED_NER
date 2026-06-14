@@ -1,13 +1,3 @@
----
-title: Snomed NER
-emoji: 🏥
-colorFrom: blue
-colorTo: indigo
-sdk: gradio
-app_file: app.py
-pinned: false
-license: apache-2.0
----
 
 # SNOMED NER — Clinical Disease Entity Extractor
 
