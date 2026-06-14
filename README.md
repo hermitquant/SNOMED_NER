@@ -99,7 +99,7 @@ The absence of these categories causes misclassification of procedural and conte
 - Evaluate on a held-out clinical corpus distinct from PubMed abstracts
 - Implement model drift monitoring using Evidently AI to track entity distribution shifts over time
 
-*Built as part of an NHS/OneLondon Secure Data Environment capstone project.*
+*Built as a capstone project for the Advanced ML course from https://ml.electricsheep.africa/grade2/.*
 
 ## Confidence Scoring
 
