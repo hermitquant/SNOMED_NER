@@ -7,6 +7,11 @@ deployed as a capstone project for the Electric Sheep Advanced ML course from ht
 See [`architecture.md`](architecture.md) for a stage-by-stage walkthrough of the training
 pipeline and how it connects to the deployed app.
 
+## Data
+
+The SNOMED CT and MedMentions data used to train the custom model is available here:
+http://bit.ly/4e8leYV
+
 ## Models
 
 ### Production Model (Deployed)
