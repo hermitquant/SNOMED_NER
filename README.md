@@ -29,6 +29,12 @@ http://bit.ly/4e8leYV
 
 ## How it works
 
+[Gradio](https://www.gradio.app/) is an open-source Python library for building and
+sharing web UIs for machine learning models — it turns a Python function into an
+interactive demo (text boxes, buttons, tables, etc.) without writing any HTML/JS, and
+can be hosted for free on [Hugging Face Spaces](https://huggingface.co/spaces). The app
+for this project, [`gradio_app/app.py`](gradio_app/app.py), is one such Gradio app.
+
 Paste any clinical free-text into the [`Gradio app`](https://huggingface.co/spaces/acebirim/SNOMED_NER). The selected model, from a dropdown, identifies disease entity spans
 using BIO tagging and highlights them inline. Results are also shown as a summary table with their confidence values. Sample clinical texts are provided in the app.
 
