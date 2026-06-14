@@ -93,7 +93,9 @@ The absence of these categories causes misclassification of procedural and conte
 
 - Retrain custom model on full MedMentions without SNOMED filtering and with full sentence context windows
 - Expand label schema to include PROCEDURE, MEDICATION, ANATOMY entity types
-- Integrate SNOMED CT terminology lookup to return concept codes alongside entity spans
+- Integrate SNOMED CT terminology lookup into the deployed Gradio app, so detected entities
+  return a SNOMED concept code alongside the entity span and confidence score (the
+  `term_to_code` lookup currently exists only in the training notebook)
 - Evaluate on a held-out clinical corpus distinct from PubMed abstracts
 - Implement model drift monitoring using Evidently AI to track entity distribution shifts over time
 
