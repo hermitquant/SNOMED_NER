@@ -24,6 +24,9 @@ deployed as part of an NHS/OneLondon Secure Data Environment capstone project.
 Paste any clinical free-text into the [`Gradio app`](https://huggingface.co/spaces/acebirim/SNOMED_NER). The model identifies disease entity spans
 using BIO tagging and highlights them inline. Results are also shown as a summary table.
 
+(Pictures of the Gradio App)
+![Custom model](pic_1.jpg) and ![Production model](pic_2.jpg)
+
 ## Model Development & Benchmarking
 
 A custom NER model was trained from scratch on the MedMentions corpus using
