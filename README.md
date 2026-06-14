@@ -4,6 +4,9 @@
 A Named Entity Recognition model for identifying disease entities in clinical free-text,
 deployed as a capstone project for the Electric Sheep Advanced ML course from https://ml.electricsheep.africa/grade2/
 
+See [`architecture.md`](architecture.md) for a stage-by-stage walkthrough of the training
+pipeline and how it connects to the deployed app.
+
 ## Models
 
 ### Production Model (Deployed)
