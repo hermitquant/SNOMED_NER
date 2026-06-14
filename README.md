@@ -21,7 +21,7 @@ deployed as part of an NHS/OneLondon Secure Data Environment capstone project.
 
 ## How it works
 
-Paste any clinical free-text into the form. The model identifies disease entity spans
+Paste any clinical free-text into the [`Gradio app`](https://huggingface.co/spaces/acebirim/SNOMED_NER). The model identifies disease entity spans
 using BIO tagging and highlights them inline. Results are also shown as a summary table.
 
 ## Model Development & Benchmarking
