@@ -21,8 +21,8 @@ deployed as a capstone project for the Electric Sheep Advanced ML course from ht
 
 ## How it works
 
-Paste any clinical free-text into the [`Gradio app`](https://huggingface.co/spaces/acebirim/SNOMED_NER). The model identifies disease entity spans
-using BIO tagging and highlights them inline. Results are also shown as a summary table.
+Paste any clinical free-text into the [`Gradio app`](https://huggingface.co/spaces/acebirim/SNOMED_NER). The selected model, from a dropdown, identifies disease entity spans
+using BIO tagging and highlights them inline. Results are also shown as a summary table with their confidence values.
 
 (Pictures of the Gradio App)
 ![Custom model](pic_1.jpg) and ![Production model](pic_2.jpg)
