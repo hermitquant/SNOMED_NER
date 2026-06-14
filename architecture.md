@@ -4,6 +4,14 @@ This document walks through the stages of [`notebooks/snomed-ner-project.ipynb`]
 the notebook used to build the custom `acebirim/snomed-ner-model`, and how its output
 connects to the deployed [`gradio_app/app.py`](gradio_app/app.py).
 
+## Compute environment
+
+The pipeline was run on a **Kaggle notebook with a T4 GPU**. Fine-tuning Bio_ClinicalBERT
+on 137K training examples for 3 epochs is computationally expensive — Kaggle was chosen
+because it provides free GPU access (T4, ~16GB VRAM) with no local hardware requirements,
+which was sufficient to complete training within Kaggle's session time limits while also
+hosting the SNOMED CT and MedMentions datasets as notebook inputs/outputs.
+
 ## Pipeline overview
 
 ```
